@@ -3,8 +3,8 @@ package rules
 import (
 	"net/http"
 
-	"github.com/always-waiting/cobra-canal/config"
-	"github.com/always-waiting/cobra-canal/event"
+	"github.com/freedkr/cobra-canal/config"
+	"github.com/freedkr/cobra-canal/event"
 	"github.com/siddontang/go-log/log"
 )
 

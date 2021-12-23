@@ -1,10 +1,11 @@
 package config
 
 import (
-	"github.com/always-waiting/cobra-canal/event"
-	"github.com/juju/errors"
 	"sync"
 	"time"
+
+	"github.com/freedkr/cobra-canal/event"
+	"github.com/juju/errors"
 )
 
 const (

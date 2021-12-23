@@ -10,7 +10,7 @@ Cobra-Canal根据用户自定的规则，对事件进行过滤，同时根据用
 - [Concepts](#concepts)
 
 # Overview
-Cobra-Canal是一个binlog监控框架，基于[canal](https://github.com/siddontang/go-mysql)项目进行日志获取与解析。
+Cobra-Canal是一个binlog监控框架，基于[canal](https://github.com/go-mysql-org/go-mysql)项目进行日志获取与解析。
 
 Cobra-Canal可以使日志监控更加定制化，满足各种同步或服务发现场景。Cobra-Canal支持如下功能:
 * 自定义过滤规则
@@ -27,6 +27,6 @@ Cobra-Canal可以使日志监控更加定制化，满足各种同步或服务发
 否则ruler会直接把事件放入消费池。消费器会从消费池获取事件(组)进行消费。
 
 过滤规则(ruler)以及消费器(consumer)需要用户自定义，框架自带了一个假ruler和假consumer。假ruler没有任何过滤逻辑，假
-consumer会把事件打印到日志，可以参见[examples/00-fake](https://github.com/always-waiting/cobra-canal/tree/examples/examples/00-fake)
+consumer会把事件打印到日志，可以参见[examples/00-fake](https://github.com/freedkr/cobra-canal/tree/examples/examples/00-fake)
 
-ruler和consumer的编写，可以参见[examples/01-print](https://github.com/always-waiting/cobra-canal/tree/examples/examples/01-print)
+ruler和consumer的编写，可以参见[examples/01-print](https://github.com/freedkr/cobra-canal/tree/examples/examples/01-print)

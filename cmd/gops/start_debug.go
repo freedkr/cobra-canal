@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/always-waiting/cobra-canal/helps"
+	"github.com/freedkr/cobra-canal/helps"
 	"github.com/spf13/cobra"
 )
 

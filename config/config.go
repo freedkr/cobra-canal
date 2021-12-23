@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/siddontang/go-mysql/canal"
+	"github.com/go-mysql-org/go-mysql/canal"
 )
 
 type configure struct {

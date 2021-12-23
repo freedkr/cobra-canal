@@ -1,7 +1,7 @@
 package consumes
 
 import (
-	"github.com/always-waiting/cobra-canal/event"
+	"github.com/freedkr/cobra-canal/event"
 	"github.com/siddontang/go-log/log"
 )
 

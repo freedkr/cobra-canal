@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/always-waiting/cobra-canal/config"
-	"github.com/always-waiting/cobra-canal/helps"
+	"github.com/freedkr/cobra-canal/config"
+	"github.com/freedkr/cobra-canal/helps"
 	"github.com/google/gops/agent"
 )
 

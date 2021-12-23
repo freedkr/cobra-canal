@@ -2,7 +2,8 @@ package systemctl
 
 import (
 	"fmt"
-	"github.com/always-waiting/cobra-canal/helps"
+
+	"github.com/freedkr/cobra-canal/helps"
 	"github.com/spf13/cobra"
 )
 

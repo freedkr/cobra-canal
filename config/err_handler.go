@@ -2,7 +2,8 @@ package config
 
 import (
 	"encoding/json"
-	"github.com/always-waiting/cobra-canal/errors"
+
+	"github.com/freedkr/cobra-canal/errors"
 )
 
 type errSenderConfig map[string]string

@@ -1,10 +1,10 @@
 package cmd
 
 import (
-	"github.com/always-waiting/cobra-canal/cmd/gops"
-	"github.com/always-waiting/cobra-canal/cmd/positions"
-	"github.com/always-waiting/cobra-canal/cmd/rule"
-	"github.com/always-waiting/cobra-canal/cmd/systemctl"
+	"github.com/freedkr/cobra-canal/cmd/gops"
+	"github.com/freedkr/cobra-canal/cmd/positions"
+	"github.com/freedkr/cobra-canal/cmd/rule"
+	"github.com/freedkr/cobra-canal/cmd/systemctl"
 	"github.com/spf13/cobra"
 )
 

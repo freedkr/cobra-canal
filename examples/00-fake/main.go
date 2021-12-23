@@ -1,6 +1,6 @@
 package main
 
-import "github.com/always-waiting/cobra-canal/cmd"
+import "github.com/freedkr/cobra-canal/cmd"
 
 func main() {
 	cmd.Execute()

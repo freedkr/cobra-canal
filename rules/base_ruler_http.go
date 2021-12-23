@@ -2,8 +2,9 @@ package rules
 
 import (
 	"fmt"
-	"github.com/always-waiting/cobra-canal/consumes"
 	"net/http"
+
+	"github.com/freedkr/cobra-canal/consumes"
 )
 
 /*

@@ -2,9 +2,11 @@ package event
 
 import (
 	"fmt"
+
 	"github.com/MakeNowJust/heredoc"
+	"github.com/MakeNowJust/heredoc/v2"
+	"github.com/go-mysql-org/go-mysql/schema"
 	"github.com/juju/errors"
-	"github.com/siddontang/go-mysql/schema"
 )
 
 const (

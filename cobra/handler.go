@@ -3,16 +3,16 @@ package cobra
 import (
 	"sync"
 
-	"github.com/always-waiting/cobra-canal/config"
-	cobraErrors "github.com/always-waiting/cobra-canal/errors"
-	"github.com/always-waiting/cobra-canal/event"
-	"github.com/always-waiting/cobra-canal/rules"
+	"github.com/freedkr/cobra-canal/config"
+	cobraErrors "github.com/freedkr/cobra-canal/errors"
+	"github.com/freedkr/cobra-canal/event"
+	"github.com/freedkr/cobra-canal/rules"
 	"github.com/siddontang/go-log/log"
 
+	"github.com/go-mysql-org/go-mysql/canal"
+	"github.com/go-mysql-org/go-mysql/mysql"
+	"github.com/go-mysql-org/go-mysql/replication"
 	"github.com/juju/errors"
-	"github.com/siddontang/go-mysql/canal"
-	"github.com/siddontang/go-mysql/mysql"
-	"github.com/siddontang/go-mysql/replication"
 )
 
 const (

@@ -4,15 +4,15 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/always-waiting/cobra-canal/config"
-	"github.com/always-waiting/cobra-canal/consumes"
-	"github.com/always-waiting/cobra-canal/event"
+	"github.com/freedkr/cobra-canal/config"
+	"github.com/freedkr/cobra-canal/consumes"
+	"github.com/freedkr/cobra-canal/event"
 
+	"github.com/go-mysql-org/go-mysql/client"
+	"github.com/go-mysql-org/go-mysql/mysql"
+	"github.com/go-mysql-org/go-mysql/schema"
 	"github.com/juju/errors"
 	"github.com/siddontang/go-log/log"
-	"github.com/siddontang/go-mysql/client"
-	"github.com/siddontang/go-mysql/mysql"
-	"github.com/siddontang/go-mysql/schema"
 )
 
 const (

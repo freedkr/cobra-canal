@@ -3,15 +3,16 @@ package cobra
 import (
 	"database/sql"
 	"fmt"
-	"github.com/always-waiting/cobra-canal/config"
-	cobraErrors "github.com/always-waiting/cobra-canal/errors"
+	"net"
+
+	"github.com/freedkr/cobra-canal/config"
+	cobraErrors "github.com/freedkr/cobra-canal/errors"
+	"github.com/go-mysql-org/go-mysql/canal"
+	cmysql "github.com/go-mysql-org/go-mysql/mysql"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jinzhu/gorm"
 	"github.com/juju/errors"
 	"github.com/siddontang/go-log/log"
-	"github.com/siddontang/go-mysql/canal"
-	cmysql "github.com/siddontang/go-mysql/mysql"
-	"net"
 )
 
 const (

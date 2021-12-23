@@ -5,8 +5,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	mcobra "github.com/always-waiting/cobra-canal/cobra"
-	"github.com/always-waiting/cobra-canal/config"
+	mcobra "github.com/freedkr/cobra-canal/cobra"
+	"github.com/freedkr/cobra-canal/config"
 	"github.com/google/gops/agent"
 	"github.com/siddontang/go-log/log"
 	"github.com/spf13/cobra"

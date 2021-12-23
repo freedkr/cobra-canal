@@ -10,11 +10,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/always-waiting/cobra-canal/cmd"
-	"github.com/always-waiting/cobra-canal/config"
-	"github.com/always-waiting/cobra-canal/consumes"
-	"github.com/always-waiting/cobra-canal/event"
-	"github.com/always-waiting/cobra-canal/rules"
+	"github.com/freedkr/cobra-canal/cmd"
+	"github.com/freedkr/cobra-canal/config"
+	"github.com/freedkr/cobra-canal/consumes"
+	"github.com/freedkr/cobra-canal/event"
+	"github.com/freedkr/cobra-canal/rules"
 )
 
 type rule struct {

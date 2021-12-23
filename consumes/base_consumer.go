@@ -2,10 +2,11 @@ package consumes
 
 import (
 	"fmt"
-	"github.com/always-waiting/cobra-canal/event"
+	"runtime"
+
+	"github.com/freedkr/cobra-canal/event"
 	"github.com/juju/errors"
 	"github.com/siddontang/go-log/log"
-	"runtime"
 )
 
 const (

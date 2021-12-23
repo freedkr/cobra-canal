@@ -7,9 +7,9 @@ import (
 	"sync"
 
 	"github.com/MakeNowJust/heredoc"
-	"github.com/always-waiting/cobra-canal/config"
-	cobraErrors "github.com/always-waiting/cobra-canal/errors"
-	"github.com/always-waiting/cobra-canal/event"
+	"github.com/freedkr/cobra-canal/config"
+	cobraErrors "github.com/freedkr/cobra-canal/errors"
+	"github.com/freedkr/cobra-canal/event"
 	"github.com/juju/errors"
 	"github.com/siddontang/go-log/log"
 )

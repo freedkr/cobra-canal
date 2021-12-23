@@ -3,8 +3,8 @@ package cobra
 import (
 	"net/http"
 
-	"github.com/always-waiting/cobra-canal/helps"
-	"github.com/always-waiting/cobra-canal/rules"
+	"github.com/freedkr/cobra-canal/helps"
+	"github.com/freedkr/cobra-canal/rules"
 )
 
 func (h *Handler) ServeHTTPReport(rsp http.ResponseWriter, req *http.Request) {

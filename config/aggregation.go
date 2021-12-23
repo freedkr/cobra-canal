@@ -2,8 +2,9 @@ package config
 
 import (
 	"fmt"
-	"github.com/always-waiting/cobra-canal/event"
 	"reflect"
+
+	"github.com/freedkr/cobra-canal/event"
 
 	"github.com/juju/errors"
 	"github.com/siddontang/go-log/log"

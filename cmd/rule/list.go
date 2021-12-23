@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/always-waiting/cobra-canal/rules"
+	"github.com/freedkr/cobra-canal/rules"
 	"github.com/spf13/cobra"
 )
 

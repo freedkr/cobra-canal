@@ -6,7 +6,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/MakeNowJust/heredoc"
+	"github.com/MakeNowJust/heredoc/v2"
 	"github.com/freedkr/cobra-canal/config"
 	cobraErrors "github.com/freedkr/cobra-canal/errors"
 	"github.com/freedkr/cobra-canal/event"

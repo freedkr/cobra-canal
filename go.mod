@@ -3,7 +3,6 @@ module github.com/freedkr/cobra-canal
 go 1.17
 
 require (
-	github.com/MakeNowJust/heredoc v1.0.0
 	github.com/MakeNowJust/heredoc/v2 v2.0.1
 	github.com/fsnotify/fsnotify v1.5.1
 	github.com/go-mysql-org/go-mysql v1.4.0
